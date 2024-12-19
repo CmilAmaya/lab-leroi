@@ -8,7 +8,7 @@ dotenv.config();
 
 //cors
 const corsOptions = {
-    origin: ['http://localhost:3000', 'http://localhost:3001', "https://lab-front-sigma.vercel.app", "https://lab-front-git-master-camila-amayas-projects.vercel.app", "https://lab-front-4w2ps3nqv-camila-amayas-projects.vercel.app" ], 
+    origin: ["*"], 
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
   };
